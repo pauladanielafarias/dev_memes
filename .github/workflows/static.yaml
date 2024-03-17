@@ -52,4 +52,6 @@ jobs:
           artifact_name: pages
           preview: ./public
           token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Start application
+        run: npm start
 
