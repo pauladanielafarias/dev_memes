@@ -11,6 +11,7 @@ app.use(express.json());
 
 // use bootstrap
 app.use(express.static("node_modules/bootstrap/dist/"));
+app.use(express.static("public"));
 
 
 app.use('/', require('./routes'));
