@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          artifact-name: pages
+          name: pages
           path: '.'
       - name: Setup Node.js
         uses: actions/setup-node@v4.0.2
@@ -49,9 +49,6 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact-name: pages
-          target-folder: .
-          commit-message: Deployed to GitHub Pages
-          publish-dir: ./public
-          keep-files: false
           token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          keep_files: false
