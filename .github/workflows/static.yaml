@@ -48,5 +48,10 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Start app
-        run: npm start
+        with:
+          artifact-name: pages
+          target-folder: .
+          commit-message: Deployed to GitHub Pages
+          publish-dir: .
+          keep-files: false
+          token: ${{ secrets.GITHUB_TOKEN }}
