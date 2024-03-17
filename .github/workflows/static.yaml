@@ -52,6 +52,6 @@ jobs:
           artifact-name: pages
           target-folder: .
           commit-message: Deployed to GitHub Pages
-          publish-dir: .
+          publish-dir: ./public
           keep-files: false
           token: ${{ secrets.GITHUB_TOKEN }}
