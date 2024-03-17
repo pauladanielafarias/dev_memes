@@ -1,7 +1,7 @@
 const axios = require('axios');
 const cheerio = require("cheerio")
 
-const url = 'https://programmerhumor.io/programming-memes';
+const url = 'https://programmerhumor.io/?bimber_random_post=true';
 
 const get_meme = async () => {
     const msgLocation = 'Controllers::get_meme::get_meme()'
