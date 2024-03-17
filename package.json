@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js --silent",
+    "start": "node app.js --silent &",
     "dev": "nodemon app.js"
   },
   "keywords": [],
