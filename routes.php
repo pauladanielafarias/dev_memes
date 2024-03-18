@@ -29,10 +29,10 @@ function handle404()
 
 
 // Enrutamiento básico
-if ( $path == '/' || $path == '/index.php' ) {
+if ( $path == '/dev/dev_memes' || $path == '/dev_memes' || $path == '/dev/dev_memes/' || $path == '/dev_memes/' || $path == '/dev/dev_memes/index.php' || $path == '/dev_memes/index.php' || $path == '/dev/dev_memes/index.php/' || $path == '/dev_memes/index.php/') {
     handleHome();
 } 
-elseif ($path == '/meme' || $path == '/meme.php') {
+elseif ($path == '/dev/dev_memes/meme' || $path == '/dev_memes/meme' || $path == '/dev/dev_memes/meme/' || $path == '/dev_memes/meme/' || $path == '/dev/dev_memes/meme.php' || $path == '/dev_memes/meme.php' || $path == '/dev/dev_memes/meme.php/' || $path == '/dev_memes/meme.php/') {
     handleMeme();
 } 
 else {
