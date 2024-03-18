@@ -1,4 +1,4 @@
-const targetUrl = '/scripts/get_meme.php';
+const targetUrl = './scripts/get_meme.php';
 
 const getMeme = async () => {
     try {
