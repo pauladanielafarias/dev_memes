@@ -1,0 +1,11 @@
+# PHP
+vendor/
+
+#LOGS
+*.log
+
+# ENV
+.env
+
+# UNWANTED FILES
+.DS_Store
