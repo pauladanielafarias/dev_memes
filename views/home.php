@@ -18,7 +18,7 @@
     </div>
 
     <div class="m-4 text-center">
-        <a class="btn btn-primary " href="/php/meme">Get meme</a>
+        <a class="btn btn-primary " href="/meme">Get meme</a>
     </div>
 
     <!-- INCLUDE FOOTER FILE -->

@@ -29,10 +29,10 @@ function handle404()
 
 
 // Enrutamiento básico
-if ($path == '/php/' || $path == '/php/index.php' || $path == '/php') {
+if ( $path == '/' || $path == '/index.php' ) {
     handleHome();
 } 
-elseif ($path == '/php/meme' || $path == '/php/meme.php') {
+elseif ($path == '/meme' || $path == '/meme.php') {
     handleMeme();
 } 
 else {
