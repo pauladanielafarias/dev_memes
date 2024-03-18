@@ -18,7 +18,7 @@
     </div>
 
     <div class="m-4 text-center">
-        <a class="btn btn-primary " href="/dev/dev_memes/meme">Get meme</a>
+        <button onclick="getMeme()" class="btn btn-primary">Get meme</button>
     </div>
 
     <!-- INCLUDE FOOTER FILE -->
