@@ -18,7 +18,7 @@
     </div>
 
     <div class="m-4 text-center">
-        <a class="btn btn-primary " href="/dev_memes/meme">Get meme</a>
+        <a class="btn btn-primary " href="/dev/dev_memes/meme">Get meme</a>
     </div>
 
     <!-- INCLUDE FOOTER FILE -->
